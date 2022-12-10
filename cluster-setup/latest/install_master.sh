@@ -21,6 +21,7 @@ KUBE_VERSION=1.23.6
 
 ### setup terminal
 apt-get update
+wget -qO - https://download.opensuse.org/repositories/devel:/kubic:/libcontainers:/stable/xUbuntu_20.04/Release.key | sudo apt-key add -
 apt-get install -y bash-completion binutils
 echo 'colorscheme ron' >> ~/.vimrc
 echo 'set tabstop=2' >> ~/.vimrc
